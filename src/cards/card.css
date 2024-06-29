@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components{
+    .card{
+        @apply bg-red-200
+    }
+} */
+
+.card:active{
+    transform:skewY(12deg)
+}

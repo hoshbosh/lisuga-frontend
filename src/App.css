@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.child{
+  top:50%;
+  left:50%;
+}
+
+@layer components{
+    .rateButton{
+        @apply  p-10 rounded-lg bg-red-50
+    }
+}
